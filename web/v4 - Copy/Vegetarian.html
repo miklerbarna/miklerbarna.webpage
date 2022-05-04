@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Vegetarian-Mikler Barna's webpage</title>
+            <link rel="icon" href="includes/healthy-food.png" type="image/png">
+            <link id="style" rel="stylesheet" type="text/css" media="screen" href="includes/stylesheet_screen.css">
+            <link rel="stylesheet" type="text/css" media="print" href="includes/stylesheet_print.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+        </head>
+    <body id="bdiv">
+        <a href="#maincontent" id="skiptocontent">Skip to content</a>
+        <div id="main" class="container-md rounded">
+            <div>
+                <button id="contrastchanger" onclick="changeCon()" class="rounded border-0 bg-secondary">Change contrast</button>
+            </div>
+            <header id="title">
+                <p>
+                    Diets from around the world 
+                </p>
+            </header>
+            <nav id="menupoints" class="row">
+                <div id="first_menupoint" class="rounded-start col-md-3 col-sm-6"><a href="index.html" class="links">Overview</a></div>
+                <div class="menupoint col-md-3 col-sm-6"><a href="Ketogenetic.html" class="links">Ketogenetic</a></div>
+                <div class="menupoint col-md-3 col-sm-6"><a href="Paleo.html" class="links">Paleo</a></div>
+                <div id="on_menupoint" class="menupoint rounded-end col-md-3 col-sm-6"><a href="Vegetarian.html" class="links">Vegetarian</a></div>  
+            </nav>
+            <section id="maincontent" class="rounded-top">
+                <h1>
+                    The Vegetarian Diet
+                </h1>
+                <p>
+                    Probably <b>the most known diet</b> right now is the vegetarian diet.
+                    Some studies suggest that vegetarians take up 18% of the global population.
+                    The diet prohibits any type of animal meat from our meals.
+                    Basic vegetarianism does not exclude dairy products, eggs or other animal products, it only takes the meat off the plate.
+                    The diet claims that we actually do not need meat in our daily lives, but rather we should include more vegetables into our meals. 
+                </p>
+                <h2>Benefits of the Diet:</h2>
+                <p>
+                    Aside from the ethical and environmental benefits, why is leaving meat off our plate is a good thing? 
+                    Benefits include:
+                </p>
+                <div class="row" id="veg_bullet_and_image"> 
+                    <div class="col-12 col-md-6">
+                        <ul id="bulletpoints">
+                            <li class="list_item">Enchanced weight loss</li>
+                            <li class="list_item">Reduction in the risk of cancer</li>
+                            <li class="list_item">Blood sugar stabilization</li>
+                            <li class="list_item">Improved heart health</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="includes/vegetarian1.jpg" target="_blank"><img id="pic5" class="img-fluid" src="includes/vegetarian1_thumbnail.jpg" title="A balanced diet for vegetarians" alt="On this picture, there is a plate, which functions as a circle diagram.
+                            The diagram suggest: 2+ serving of fruits, 1-2 servings of seeds and nuts, 4+ servings of vegetables, 3+ servings of beans and lentils, 5+ servings of Grains and starchy vegetables."></a>
+                    </div>
+                </div>
+                <h2>Downsides of the Diet:</h2>
+                <p>
+                    It is important to still consume enough proteins and vitamins, that are mainly found in meats.
+                    By not taking in these nutrients, one can develop deficiencies in calcium, iron or vitamin B12.
+                    A nutritional deficiency in these key micronutrients can lead to symptoms like fatigue, weakness, anemia, bone loss or thyroid issues.
+                </p>
+                <h3>Different types of vegetarians:</h3>
+                <p>
+                    Diets always have <i>variations</i> and this fact is no different in the case of a vegetarian diet.
+                </p>
+                <p id="hide_p">
+                    You can get information of the most common variations in the video below
+                </p>
+                <div id="viddiv" class="row">
+                    <video class="img-fluid col-12" id="video" controls poster="includes/thumbnail.png">
+                        <source src="includes/video.mp4" type="video/mp4">
+                    </video>
+                    <a id="trans_link" class="link col-4" href="includes/transcription.html">Transcript for video</a>   
+                </div>
+                <button id="classchanger" onclick="changeClass()" class="rounded border-2 border-warning bg-light">Hide form</button>
+            </section>
+
+            <footer id="form" class="rounded-bottom">
+                <div class="row">
+                    <div id="formcell" class="col-12">
+                        <form action="mailto:example@mailinator.com" method="post" enctype="text/plain">
+                            <label for="veg_rev">Leave a review on this diet</label><br>
+                            <textarea class="rounded border-2" name="rev" id="veg_rev" cols="30" rows="10"></textarea><br>
+                            <input type="submit" value="Send" class="rounded border-2 border-success bg-light">
+                        </form>
+                    </div>
+                    <div id="article_cell" class="col-10 border border-3 border-secondary">
+                        <article>
+                            <h3 class="article_email">From fitfit@gmail.com</h3>
+                            <p>Save the Earth!</p>
+                        </article>
+                        <article>
+                            <h3 class="article_email">From purefoods@gmail.com</h3>
+                            <p>I miss cheeseburgers..</p>
+                        </article>
+                        <article>
+                            <h3 class="article_email">From healthguy@gmail.com</h3>
+                            <p>There is nothing better than some beans</p>
+                        </article>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="includes/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,206 @@
+*{
+    font-family: Verdana, sans-serif;
+    word-spacing: 0.3em;
+}
+
+
+#bdiv{
+    font-size: 0.9em;
+}
+
+#skiptocontent{
+    position: absolute;
+    left: -999em;
+}
+
+
+#contrastchanger{
+    display: none;
+}
+
+#main{
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+#fontchanger{
+    display: none;
+}
+
+#title{
+    text-align: center;
+}
+
+#menupoints{
+    display: none;
+}
+
+#on_menupoint{
+    display: none;
+}
+
+.menupoint{
+    display: none;
+}
+
+.menupoint:hover{
+    display: none;;
+}
+
+#last_menupoint{
+    display: none;
+}
+
+#last_menupoint:hover{
+    display: none;
+}
+
+
+#first_menupoint{
+    display: none;
+}
+
+#first_menupoint:hover{
+    display: none;
+}
+
+
+#first_menupoint{
+    display: none;
+}
+
+.menupoint:nth-child(1){
+    display: none;
+}
+
+.menupoint:nth-child(2){
+    display: none;
+}
+
+#last_menupoint{
+    display: none;
+}
+
+.link:link{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link:visited{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.75em;
+}
+
+#bulletpoints{
+    padding-left: 3em;
+}
+
+
+.bulletpoints{
+    padding-left: 3em;
+}
+
+.list_item
+{   
+    margin-bottom: 1em;
+}
+
+
+#formcell{
+    display: none;
+}
+
+#calculators_cell{
+    display: none;
+}
+
+#whattoeat{
+    border: 2px solid black;
+    margin: 1em;
+}
+
+.whattoeat_th_header{
+    border: 2px solid black;
+}
+
+.whattoeat_th{
+    font-weight: normal;
+    padding: 1em;
+}
+
+#article_cell{
+    display: none;
+}
+
+#veg_bullet_and_image{
+    width: 80%;
+    margin-left: 2em;
+}
+
+
+#viddiv{
+    display: none;
+}
+
+.article_email{
+    font-weight: bold;
+    font-size: large;
+}
+
+#classchanger{
+    display: none;
+}
+
+
+#pic1{
+    width: 50%;
+}
+
+#pic2{
+    width: 50%;
+}
+
+#pic4{
+    padding: 1em;
+    width: 30%;
+}
+
+#pic3{
+    width: 60%;
+    margin-bottom: 1em;
+}
+
+#pic5{
+    width: 40%;
+}
+
+#figcap{
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#caption{
+    display: none;
+}
+
+#video{
+    display: none;
+}
+
+#trans_link{
+    display: none;
+}
+
+#hide_p{
+    display: none;
+}
